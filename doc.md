@@ -44,7 +44,7 @@
     ```
 - **Response (XML):**
     ```xml
-    <books>
+    <book>
         <book>
             <id>1</id>
             <title>Pride and Prejudice</title>
@@ -73,7 +73,7 @@
             <published_date>1960-07-11</published_date>
             <genre>Fiction</genre>
         </book>
-    </books>
+    </book>
     ```
 
 #### Get Book by ID
@@ -220,7 +220,7 @@
 
 #### Get All Authors
 
-- **URL:** `/api/author`
+- **URL:** `/api/book/author`
 - **Method:** `GET`
 - **Description:** Retrieve a list of all authors.
 - **Response (JSON):**
@@ -255,7 +255,7 @@
     ```
 - **Response (XML):**
     ```xml
-    <authors>
+    <author>
         <author>
             <id>1</id>
             <name>Jane Austen</name>
@@ -281,12 +281,12 @@
             <name>Aldous Huxley</name>
             <birthdate>1894-07-26</birthdate>
         </author>
-    </authors>
+    </author>
     ```
 
 #### Get Author by ID
 
-- **URL:** `/api/author/{id}`
+- **URL:** `/api/book/author/{id}`
 - **Method:** `GET`
 - **Description:** Retrieve details of a specific author.
 - **Response (JSON):**
@@ -310,7 +310,7 @@
 
 #### Add a New Author
 
-- **URL:** `/api/author`
+- **URL:** `/api/book/author`
 - **Method:** `POST`
 - **Description:** Add a new author.
 - **Request Body (JSON):**
@@ -350,7 +350,7 @@
 
 #### Update Author by ID
 
-- **URL:** `/api/author/{id}`
+- **URL:** `/api/book/author/{id}`
 - **Method:** `PUT`
 - **Description:** Update an author's information.
 - **Request Body (JSON):**
@@ -390,7 +390,7 @@
 
 #### Delete Author by ID
 
-- **URL:** `/api/author/{id}`
+- **URL:** `/api/book/author/{id}`
 - **Method:** `DELETE`
 - **Description:** Delete an author.
 - **Response (JSON):**
