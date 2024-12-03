@@ -9,6 +9,8 @@
 - **URL:** `/api/book`
 - **Method:** `GET`
 - **Description:** Retrieve a list of all books.
+- **Headers:**
+  - Accept: application/json, application/xml
 - **Response (JSON):**
     ```json
     [
@@ -81,6 +83,8 @@
 - **URL:** `/api/book/{id}`
 - **Method:** `GET`
 - **Description:** Retrieve details of a specific book.
+- **Headers:**
+  - Accept: application/json, application/xml
 - **Response (JSON):**
     ```json
     {
@@ -109,6 +113,8 @@
 - **URL:** `/api/book`
 - **Method:** `POST`
 - **Description:** Add a new book.
+- **Headers:**
+  - Content-Type: application/json, application/xml
 - **Request Body (JSON):**
     ```json
     {
@@ -157,6 +163,8 @@
 - **URL:** `/api/book/{id}`
 - **Method:** `PUT`
 - **Description:** Update details of an existing book.
+- **Headers:**
+  - Content-Type: application/json, application/xml
 - **Request Body (JSON):**
     ```json
     {
@@ -205,6 +213,8 @@
 - **URL:** `/api/book/{id}`
 - **Method:** `DELETE`
 - **Description:** Delete a book.
+- **Headers:**
+  - Accept: application/json, application/xml
 - **Response (JSON):**
     ```json
     {
@@ -223,6 +233,8 @@
 - **URL:** `/api/book/author`
 - **Method:** `GET`
 - **Description:** Retrieve a list of all authors.
+- **Headers:**
+  - Accept: application/json, application/xml
 - **Response (JSON):**
     ```json
     [
@@ -289,6 +301,8 @@
 - **URL:** `/api/book/author/{id}`
 - **Method:** `GET`
 - **Description:** Retrieve details of a specific author.
+- **Headers:**
+  - Accept: application/json, application/xml
 - **Response (JSON):**
     ```json
     {
@@ -313,6 +327,8 @@
 - **URL:** `/api/book/author`
 - **Method:** `POST`
 - **Description:** Add a new author.
+- **Headers:**
+  - Content-Type: application/json, application/xml
 - **Request Body (JSON):**
     ```json
     {
@@ -353,6 +369,8 @@
 - **URL:** `/api/book/author/{id}`
 - **Method:** `PUT`
 - **Description:** Update an author's information.
+- **Headers:**
+  - Content-Type: application/json, application/xml
 - **Request Body (JSON):**
     ```json
     {
@@ -393,6 +411,8 @@
 - **URL:** `/api/book/author/{id}`
 - **Method:** `DELETE`
 - **Description:** Delete an author.
+- **Headers:**
+  - Accept: application/json, application/xml
 - **Response (JSON):**
     ```json
     {
@@ -411,6 +431,8 @@
 - **URL:** `/api/book/{id}/action/1`
 - **Method:** `POST`
 - **Description:** Borrow a book.
+- **Headers:**
+  - Content-Type: application/json, application/xml
 - **Request Body (JSON):**
     ```json
     {
@@ -445,6 +467,8 @@
 - **URL:** `/api/book/{id}/action/2`
 - **Method:** `POST`
 - **Description:** Return a borrowed book.
+- **Headers:**
+  - Content-Type: application/json, application/xml
 - **Request Body (JSON):**
     ```json
     {
