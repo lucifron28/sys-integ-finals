@@ -15,11 +15,11 @@
     ```json
     [
         {
-            "id": 1,
-            "title": "Pride and Prejudice",
-            "author": "Jane Austen",
-            "published_date": "1813-01-28",
-            "genre": "Romance"
+            "id": 1, // integer
+            "title": "Pride and Prejudice", // string
+            "author": "Jane Austen", // string
+            "published_date": "1813-01-28", // string (date, YYYY-MM-DD)
+            "genre": "Romance" // string
         },
         {
             "id": 2,
@@ -48,11 +48,11 @@
     ```xml
     <book>
         <book>
-            <id>1</id>
-            <title>Pride and Prejudice</title>
-            <author>Jane Austen</author>
-            <published_date>1813-01-28</published_date>
-            <genre>Romance</genre>
+            <id>1</id> <!-- integer -->
+            <title>Pride and Prejudice</title> <!-- string -->
+            <author>Jane Austen</author> <!-- string -->
+            <published_date>1813-01-28</published_date> <!-- string (date, YYYY-MM-DD) -->
+            <genre>Romance</genre> <!-- string -->
         </book>
         <book>
             <id>2</id>
@@ -88,23 +88,23 @@
 - **Response (JSON):**
     ```json
     {
-        "id": 1,
-        "title": "1984",
-        "author": "George Orwell",
-        "published_date": "1949-06-08",
-        "summary": "A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism.",
-        "genre": "Dystopian"
+        "id": 1, // integer
+        "title": "1984", // string
+        "author": "George Orwell", // string
+        "published_date": "1949-06-08", // string (date, YYYY-MM-DD)
+        "summary": "A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism.", // string
+        "genre": "Dystopian" // string
     }
     ```
 - **Response (XML):**
     ```xml
     <book>
-        <id>1</id>
-        <title>1984</title>
-        <author>George Orwell</author>
-        <published_date>1949-06-08</published_date>
-        <summary>A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism.</summary>
-        <genre>Dystopian</genre>
+        <id>1</id> <!-- integer -->
+        <title>1984</title> <!-- string -->
+        <author>George Orwell</author> <!-- string -->
+        <published_date>1949-06-08</published_date> <!-- string (date, YYYY-MM-DD) -->
+        <summary>A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism.</summary> <!-- string -->
+        <genre>Dystopian</genre> <!-- string -->
     </book>
     ```
 
@@ -118,43 +118,43 @@
 - **Request Body (JSON):**
     ```json
     {
-        "title": "Brave New World",
-        "author": "Aldous Huxley",
-        "published_date": "1932-08-30",
-        "summary": "A dystopian social science fiction novel set in a futuristic World State.",
-        "genre": "Dystopian"
+        "title": "Brave New World", // string
+        "author": "Aldous Huxley", // string
+        "published_date": "1932-08-30", // string (date, YYYY-MM-DD)
+        "summary": "A dystopian social science fiction novel set in a futuristic World State.", // string
+        "genre": "Dystopian" // string
     }
     ```
 - **Request Body (XML):**
     ```xml
     <book>
-        <title>Brave New World</title>
-        <author>Aldous Huxley</author>
-        <published_date>1932-08-30</published_date>
-        <summary>A dystopian social science fiction novel set in a futuristic World State.</summary>
-        <genre>Dystopian</genre>
+        <title>Brave New World</title> <!-- string -->
+        <author>Aldous Huxley</author> <!-- string -->
+        <published_date>1932-08-30</published_date> <!-- string (date, YYYY-MM-DD) -->
+        <summary>A dystopian social science fiction novel set in a futuristic World State.</summary> <!-- string -->
+        <genre>Dystopian</genre> <!-- string -->
     </book>
     ```
 - **Response (JSON):**
     ```json
     {
-        "id": 5,
-        "title": "Brave New World",
-        "author": "Aldous Huxley",
-        "published_date": "1932-08-30",
-        "summary": "A dystopian social science fiction novel set in a futuristic World State.",
-        "genre": "Dystopian"
+        "id": 5, // integer
+        "title": "Brave New World", // string
+        "author": "Aldous Huxley", // string
+        "published_date": "1932-08-30", // string (date, YYYY-MM-DD)
+        "summary": "A dystopian social science fiction novel set in a futuristic World State.", // string
+        "genre": "Dystopian" // string
     }
     ```
 - **Response (XML):**
     ```xml
     <book>
-        <id>5</id>
-        <title>Brave New World</title>
-        <author>Aldous Huxley</author>
-        <published_date>1932-08-30</published_date>
-        <summary>A dystopian social science fiction novel set in a futuristic World State.</summary>
-        <genre>Dystopian</genre>
+        <id>5</id> <!-- integer -->
+        <title>Brave New World</title> <!-- string -->
+        <author>Aldous Huxley</author> <!-- string -->
+        <published_date>1932-08-30</published_date> <!-- string (date, YYYY-MM-DD) -->
+        <summary>A dystopian social science fiction novel set in a futuristic World State.</summary> <!-- string -->
+        <genre>Dystopian</genre> <!-- string -->
     </book>
     ```
 
@@ -168,43 +168,43 @@
 - **Request Body (JSON):**
     ```json
     {
-        "title": "Animal Farm",
-        "author": "George Orwell",
-        "published_date": "1945-08-17",
-        "summary": "A satirical allegorical novella reflecting events leading up to the Russian Revolution of 1917.",
-        "genre": "Political Satire"
+        "title": "Animal Farm", // string
+        "author": "George Orwell", // string
+        "published_date": "1945-08-17", // string (date, YYYY-MM-DD)
+        "summary": "A satirical allegorical novella reflecting events leading up to the Russian Revolution of 1917.", // string
+        "genre": "Political Satire" // string
     }
     ```
 - **Request Body (XML):**
     ```xml
     <book>
-        <title>Animal Farm</title>
-        <author>George Orwell</author>
-        <published_date>1945-08-17</published_date>
-        <summary>A satirical allegorical novella reflecting events leading up to the Russian Revolution of 1917.</summary>
-        <genre>Political Satire</genre>
+        <title>Animal Farm</title> <!-- string -->
+        <author>George Orwell</author> <!-- string -->
+        <published_date>1945-08-17</published_date> <!-- string (date, YYYY-MM-DD) -->
+        <summary>A satirical allegorical novella reflecting events leading up to the Russian Revolution of 1917.</summary> <!-- string -->
+        <genre>Political Satire</genre> <!-- string -->
     </book>
     ```
 - **Response (JSON):**
     ```json
     {
-        "id": 6,
-        "title": "Animal Farm",
-        "author": "George Orwell",
-        "published_date": "1945-08-17",
-        "summary": "A satirical allegorical novella reflecting events leading up to the Russian Revolution of 1917.",
-        "genre": "Political Satire"
+        "id": 6, // integer
+        "title": "Animal Farm", // string
+        "author": "George Orwell", // string
+        "published_date": "1945-08-17", // string (date, YYYY-MM-DD)
+        "summary": "A satirical allegorical novella reflecting events leading up to the Russian Revolution of 1917.", // string
+        "genre": "Political Satire" // string
     }
     ```
 - **Response (XML):**
     ```xml
     <book>
-        <id>6</id>
-        <title>Animal Farm</title>
-        <author>George Orwell</author>
-        <published_date>1945-08-17</published_date>
-        <summary>A satirical allegorical novella reflecting events leading up to the Russian Revolution of 1917.</summary>
-        <genre>Political Satire</genre>
+        <id>6</id> <!-- integer -->
+        <title>Animal Farm</title> <!-- string -->
+        <author>George Orwell</author> <!-- string -->
+        <published_date>1945-08-17</published_date> <!-- string (date, YYYY-MM-DD) -->
+        <summary>A satirical allegorical novella reflecting events leading up to the Russian Revolution of 1917.</summary> <!-- string -->
+        <genre>Political Satire</genre> <!-- string -->
     </book>
     ```
 
@@ -218,12 +218,12 @@
 - **Response (JSON):**
     ```json
     {
-        "message": "Book deleted successfully"
+        "message": "Book deleted successfully" // string
     }
     ```
 - **Response (XML):**
     ```xml
-    <message>Book deleted successfully</message>
+    <message>Book deleted successfully</message> <!-- string -->
     ```
 
 ### Authors
@@ -239,9 +239,9 @@
     ```json
     [
         {
-            "id": 1,
-            "name": "Jane Austen",
-            "birthdate": "1775-12-16"
+            "id": 1, // integer
+            "name": "Jane Austen", // string
+            "birthdate": "1775-12-16" // string (date, YYYY-MM-DD)
         },
         {
             "id": 2,
@@ -269,9 +269,9 @@
     ```xml
     <author>
         <author>
-            <id>1</id>
-            <name>Jane Austen</name>
-            <birthdate>1775-12-16</birthdate>
+            <id>1</id> <!-- integer -->
+            <name>Jane Austen</name> <!-- string -->
+            <birthdate>1775-12-16</birthdate> <!-- string (date, YYYY-MM-DD) -->
         </author>
         <author>
             <id>2</id>
@@ -306,19 +306,19 @@
 - **Response (JSON):**
     ```json
     {
-        "id": 1,
-        "name": "Jane Austen",
-        "birthdate": "1775-12-16",
-        "biography": "Jane Austen was an English novelist known primarily for her six major novels."
+        "id": 1, // integer
+        "name": "Jane Austen", // string
+        "birthdate": "1775-12-16", // string (date, YYYY-MM-DD)
+        "biography": "Jane Austen was an English novelist known primarily for her six major novels." // string
     }
     ```
 - **Response (XML):**
     ```xml
     <author>
-        <id>1</id>
-        <name>Jane Austen</name>
-        <birthdate>1775-12-16</birthdate>
-        <biography>Jane Austen was an English novelist known primarily for her six major novels.</biography>
+        <id>1</id> <!-- integer -->
+        <name>Jane Austen</name> <!-- string -->
+        <birthdate>1775-12-16</birthdate> <!-- string (date, YYYY-MM-DD) -->
+        <biography>Jane Austen was an English novelist known primarily for her six major novels.</biography> <!-- string -->
     </author>
     ```
 
@@ -332,35 +332,35 @@
 - **Request Body (JSON):**
     ```json
     {
-        "name": "Aldous Huxley",
-        "birthdate": "1894-07-26",
-        "biography": "Aldous Huxley was an English writer and philosopher, author of Brave New World."
+        "name": "Aldous Huxley", // string
+        "birthdate": "1894-07-26", // string (date, YYYY-MM-DD)
+        "biography": "Aldous Huxley was an English writer and philosopher, author of Brave New World." // string
     }
     ```
 - **Request Body (XML):**
     ```xml
     <author>
-        <name>Aldous Huxley</name>
-        <birthdate>1894-07-26</birthdate>
-        <biography>Aldous Huxley was an English writer and philosopher, author of Brave New World.</biography>
+        <name>Aldous Huxley</name> <!-- string -->
+        <birthdate>1894-07-26</birthdate> <!-- string (date, YYYY-MM-DD) -->
+        <biography>Aldous Huxley was an English writer and philosopher, author of Brave New World.</biography> <!-- string -->
     </author>
     ```
 - **Response (JSON):**
     ```json
     {
-        "id": 5,
-        "name": "Aldous Huxley",
-        "birthdate": "1894-07-26",
-        "biography": "Aldous Huxley was an English writer and philosopher, author of Brave New World."
+        "id": 5, // integer
+        "name": "Aldous Huxley", // string
+        "birthdate": "1894-07-26", // string (date, YYYY-MM-DD)
+        "biography": "Aldous Huxley was an English writer and philosopher, author of Brave New World." // string
     }
     ```
 - **Response (XML):**
     ```xml
     <author>
-        <id>5</id>
-        <name>Aldous Huxley</name>
-        <birthdate>1894-07-26</birthdate>
-        <biography>Aldous Huxley was an English writer and philosopher, author of Brave New World.</biography>
+        <id>5</id> <!-- integer -->
+        <name>Aldous Huxley</name> <!-- string -->
+        <birthdate>1894-07-26</birthdate> <!-- string (date, YYYY-MM-DD) -->
+        <biography>Aldous Huxley was an English writer and philosopher, author of Brave New World.</biography> <!-- string -->
     </author>
     ```
 
@@ -374,35 +374,35 @@
 - **Request Body (JSON):**
     ```json
     {
-        "name": "George Orwell",
-        "birthdate": "1903-06-25",
-        "biography": "George Orwell was an English novelist, essayist, journalist, and critic."
+        "name": "George Orwell", // string
+        "birthdate": "1903-06-25", // string (date, YYYY-MM-DD)
+        "biography": "George Orwell was an English novelist, essayist, journalist, and critic." // string
     }
     ```
 - **Request Body (XML):**
     ```xml
     <author>
-        <name>George Orwell</name>
-        <birthdate>1903-06-25</birthdate>
-        <biography>George Orwell was an English novelist, essayist, journalist, and critic.</biography>
+        <name>George Orwell</name> <!-- string -->
+        <birthdate>1903-06-25</birthdate> <!-- string (date, YYYY-MM-DD) -->
+        <biography>George Orwell was an English novelist, essayist, journalist, and critic.</biography> <!-- string -->
     </author>
     ```
 - **Response (JSON):**
     ```json
     {
-        "id": 6,
-        "name": "George Orwell",
-        "birthdate": "1903-06-25",
-        "biography": "George Orwell was an English novelist, essayist, journalist, and critic."
+        "id": 6, // integer
+        "name": "George Orwell", // string
+        "birthdate": "1903-06-25", // string (date, YYYY-MM-DD)
+        "biography": "George Orwell was an English novelist, essayist, journalist, and critic." // string
     }
     ```
 - **Response (XML):**
     ```xml
     <author>
-        <id>6</id>
-        <name>George Orwell</name>
-        <birthdate>1903-06-25</birthdate>
-        <biography>George Orwell was an English novelist, essayist, journalist, and critic.</biography>
+        <id>6</id> <!-- integer -->
+        <name>George Orwell</name> <!-- string -->
+        <birthdate>1903-06-25</birthdate> <!-- string (date, YYYY-MM-DD) -->
+        <biography>George Orwell was an English novelist, essayist, journalist, and critic.</biography> <!-- string -->
     </author>
     ```
 
@@ -416,12 +416,12 @@
 - **Response (JSON):**
     ```json
     {
-        "message": "Author deleted successfully"
+        "message": "Author deleted successfully" // string
     }
     ```
 - **Response (XML):**
     ```xml
-    <message>Author deleted successfully</message>
+    <message>Author deleted successfully</message> <!-- string -->
     ```
 
 ### Actions
@@ -436,29 +436,29 @@
 - **Request Body (JSON):**
     ```json
     {
-        "user_id": 1,
-        "book_id": 1
+        "user_id": 1, // integer
+        "book_id": 1 // integer
     }
     ```
 - **Request Body (XML):**
     ```xml
     <action>
-        <user_id>1</user_id>
-        <book_id>1</book_id>
+        <user_id>1</user_id> <!-- integer -->
+        <book_id>1</book_id> <!-- integer -->
     </action>
     ```
 - **Response (JSON):**
     ```json
     {
-        "message": "Book borrowed successfully",
-        "borrowing_id": 1
+        "message": "Book borrowed successfully", // string
+        "borrowing_id": 1 // integer
     }
     ```
 - **Response (XML):**
     ```xml
     <response>
-        <message>Book borrowed successfully</message>
-        <borrowing_id>1</borrowing_id>
+        <message>Book borrowed successfully</message> <!-- string -->
+        <borrowing_id>1</borrowing_id> <!-- integer -->
     </response>
     ```
 
@@ -472,24 +472,24 @@
 - **Request Body (JSON):**
     ```json
     {
-        "borrowing_id": 1
+        "borrowing_id": 1 // integer
     }
     ```
 - **Request Body (XML):**
     ```xml
     <action>
-        <borrowing_id>1</borrowing_id>
+        <borrowing_id>1</borrowing_id> <!-- integer -->
     </action>
     ```
 - **Response (JSON):**
     ```json
     {
-        "message": "Book returned successfully"
+        "message": "Book returned successfully" // string
     }
     ```
 - **Response (XML):**
     ```xml
     <response>
-        <message>Book returned successfully</message>
+        <message>Book returned successfully</message> <!-- string -->
     </response>
     ```
