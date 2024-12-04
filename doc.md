@@ -502,14 +502,14 @@
     ```json
     {
         "message": "Book borrowed successfully", // string
-        "borrowing_id": 1 // integer
+    "borrowingId": 1 // integer
     }
     ```
 - **Response (XML):**
     ```xml
     <response>
         <message>Book borrowed successfully</message> <!-- string -->
-        <borrowing_id>1</borrowing_id> <!-- integer -->
+    <borrowing_d>1</borrowingId> <!-- integer -->
     </response>
     ```
 
@@ -523,7 +523,7 @@
 - **Request Body (JSON):**
     ```json
     {
-        "borrowing_id": 1, // integer
+    "borrowingId": 1, // integer
         "userId": 1, // integer
         "bookId": 1 // integer
     }
@@ -531,7 +531,7 @@
 - **Request Body (XML):**
     ```xml
     <action>
-        <borrowing_id>1</borrowing_id> <!-- integer -->
+    <borrowingId>1</borrowingId> <!-- integer -->
         <userId>1</userId> <!-- integer -->
         <bookId>1</bookId> <!-- integer -->
     </action>
