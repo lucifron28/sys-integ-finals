@@ -19,28 +19,28 @@
             "id": 1, // integer
             "title": "Pride and Prejudice", // string
             "author": "Jane Austen", // string
-            "published-date": "1813-01-28", // string (date, YYYY-MM-DD)
+            "publishedDate": "1813-01-28", // string (date, YYYY-MM-DD)
             "genre": "Romance" // string
         },
         {
             "id": 2,
             "title": "I hope this doesn't find you",
             "author": "Ann Liang",
-            "published-date": "2022-05-10",
+            "publishedDate": "2022-05-10",
             "genre": "Young Adult"
         },
         {
             "id": 3,
             "title": "1984",
             "author": "George Orwell",
-            "published-date": "1949-06-08",
+            "publishedDate": "1949-06-08",
             "genre": "Dystopian"
         },
         {
             "id": 4,
             "title": "To Kill a Mockingbird",
             "author": "Harper Lee",
-            "published-date": "1960-07-11",
+            "publishedDate": "1960-07-11",
             "genre": "Fiction"
         }
     ]
@@ -52,28 +52,28 @@
             <id>1</id> <!-- integer -->
             <title>Pride and Prejudice</title> <!-- string -->
             <author>Jane Austen</author> <!-- string -->
-            <published-date>1813-01-28</published-date> <!-- string (date, YYYY-MM-DD) -->
+            <publishedDate>1813-01-28</publishedDate> <!-- string (date, YYYY-MM-DD) -->
             <genre>Romance</genre> <!-- string -->
         </book>
         <book>
             <id>2</id>
             <title>I hope this doesn't find you</title>
             <author>Ann Liang</author>
-            <published-date>2022-05-10</published-date>
+            <publishedDate>2022-05-10</publishedDate>
             <genre>Young Adult</genre>
         </book>
         <book>
             <id>3</id>
             <title>1984</title>
             <author>George Orwell</author>
-            <published-date>1949-06-08</published-date>
+            <publishedDate>1949-06-08</publishedDate>
             <genre>Dystopian</genre>
         </book>
         <book>
             <id>4</id>
             <title>To Kill a Mockingbird</title>
             <author>Harper Lee</author>
-            <published-date>1960-07-11</published-date>
+            <publishedDate>1960-07-11</publishedDate>
             <genre>Fiction</genre>
         </book>
     </book>
@@ -83,7 +83,7 @@
   - `title` (optional, string): Filter books by title.
   - `author` (optional, string): Filter books by author.
   - `genre` (optional, string): Filter books by genre.
-  - `published-date` (optional, string, date, YYYY-MM-DD): Filter books by published date.
+  - `publishedDate` (optional, string, date, YYYY-MM-DD): Filter books by published date.
 - **Example Request:**
   - `/api/book?author=George%20Orwell&genre=Dystopian`
 - **Response (JSON):**
@@ -93,7 +93,7 @@
             "id": 3,
             "title": "1984",
             "author": "George Orwell",
-            "published-date": "1949-06-08",
+            "publishedDate": "1949-06-08",
             "summary": "A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism.",
             "genre": "Dystopian"
         },
@@ -101,7 +101,7 @@
             "id": 6,
             "title": "Animal Farm",
             "author": "George Orwell",
-            "published-date": "1945-08-17",
+            "publishedDate": "1945-08-17",
             "summary": "A satirical allegorical novella that criticizes the Russian Revolution and the Soviet Union.",
             "genre": "Dystopian"
         }
@@ -114,7 +114,7 @@
             <id>3</id>
             <title>1984</title>
             <author>George Orwell</author>
-            <published-date>1949-06-08</published-date>
+            <publishedDate>1949-06-08</publishedDate>
             <summary>A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism.</summary>
             <genre>Dystopian</genre>
         </book>
@@ -122,7 +122,7 @@
             <id>4</id>
             <title>Animal Farm</title>
             <author>George Orwell</author>
-            <published-date>1945-08-17</published-date>
+            <publishedDate>1945-08-17</publishedDate>
             <summary>A satirical allegorical novella that criticizes the Russian Revolution and the Soviet Union.</summary>
             <genre>Dystopian</genre>
         </book>
@@ -142,7 +142,7 @@
         "id": 1, // integer
         "title": "1984", // string
         "author": "George Orwell", // string
-        "published-date": "1949-06-08", // string (date, YYYY-MM-DD)
+        "publishedDate": "1949-06-08", // string (date, YYYY-MM-DD)
         "summary": "A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism.", // string
         "genre": "Dystopian" // string
     }
@@ -153,7 +153,7 @@
         <id>1</id> <!-- integer -->
         <title>1984</title> <!-- string -->
         <author>George Orwell</author> <!-- string -->
-        <published-date>1949-06-08</published-date> <!-- string (date, YYYY-MM-DD) -->
+        <publishedDate>1949-06-08</publishedDate> <!-- string (date, YYYY-MM-DD) -->
         <summary>A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism.</summary> <!-- string -->
         <genre>Dystopian</genre> <!-- string -->
     </book>
@@ -171,7 +171,7 @@
     {
         "title": "Brave New World", // string
         "author": "Aldous Huxley", // string
-        "published-date": "1932-08-30", // string (date, YYYY-MM-DD)
+        "publishedDate": "1932-08-30", // string (date, YYYY-MM-DD)
         "summary": "A dystopian social science fiction novel set in a futuristic World State.", // string
         "genre": "Dystopian" // string
     }
@@ -181,7 +181,7 @@
     <book>
         <title>Brave New World</title> <!-- string -->
         <author>Aldous Huxley</author> <!-- string -->
-        <published-date>1932-08-30</published-date> <!-- string (date, YYYY-MM-DD) -->
+        <publishedDate>1932-08-30</publishedDate> <!-- string (date, YYYY-MM-DD) -->
         <summary>A dystopian social science fiction novel set in a futuristic World State.</summary> <!-- string -->
         <genre>Dystopian</genre> <!-- string -->
     </book>
@@ -192,7 +192,7 @@
         "id": 5, // integer
         "title": "Brave New World", // string
         "author": "Aldous Huxley", // string
-        "published-date": "1932-08-30", // string (date, YYYY-MM-DD)
+        "publishedDate": "1932-08-30", // string (date, YYYY-MM-DD)
         "summary": "A dystopian social science fiction novel set in a futuristic World State.", // string
         "genre": "Dystopian" // string
     }
@@ -203,7 +203,7 @@
         <id>5</id> <!-- integer -->
         <title>Brave New World</title> <!-- string -->
         <author>Aldous Huxley</author> <!-- string -->
-        <published-date>1932-08-30</published-date> <!-- string (date, YYYY-MM-DD) -->
+        <publishedDate>1932-08-30</publishedDate> <!-- string (date, YYYY-MM-DD) -->
         <summary>A dystopian social science fiction novel set in a futuristic World State.</summary> <!-- string -->
         <genre>Dystopian</genre> <!-- string -->
     </book>
@@ -221,7 +221,7 @@
     {
         "title": "Animal Farm", // string
         "author": "George Orwell", // string
-        "published-date": "1945-08-17", // string (date, YYYY-MM-DD)
+        "publishedDate": "1945-08-17", // string (date, YYYY-MM-DD)
         "summary": "A satirical allegorical novella reflecting events leading up to the Russian Revolution of 1917.", // string
         "genre": "Political Satire" // string
     }
@@ -231,7 +231,7 @@
     <book>
         <title>Animal Farm</title> <!-- string -->
         <author>George Orwell</author> <!-- string -->
-        <published-date>1945-08-17</published-date> <!-- string (date, YYYY-MM-DD) -->
+        <publishedDate>1945-08-17</publishedDate> <!-- string (date, YYYY-MM-DD) -->
         <summary>A satirical allegorical novella reflecting events leading up to the Russian Revolution of 1917.</summary> <!-- string -->
         <genre>Political Satire</genre> <!-- string -->
     </book>
@@ -242,7 +242,7 @@
         "id": 6, // integer
         "title": "Animal Farm", // string
         "author": "George Orwell", // string
-        "published-date": "1945-08-17", // string (date, YYYY-MM-DD)
+        "publishedDate": "1945-08-17", // string (date, YYYY-MM-DD)
         "summary": "A satirical allegorical novella reflecting events leading up to the Russian Revolution of 1917.", // string
         "genre": "Political Satire" // string
     }
@@ -253,7 +253,7 @@
         <id>6</id> <!-- integer -->
         <title>Animal Farm</title> <!-- string -->
         <author>George Orwell</author> <!-- string -->
-        <published-date>1945-08-17</published-date> <!-- string (date, YYYY-MM-DD) -->
+        <publishedDate>1945-08-17</publishedDate> <!-- string (date, YYYY-MM-DD) -->
         <summary>A satirical allegorical novella reflecting events leading up to the Russian Revolution of 1917.</summary> <!-- string -->
         <genre>Political Satire</genre> <!-- string -->
     </book>
@@ -487,15 +487,15 @@
 - **Request Body (JSON):**
     ```json
     {
-        "user_id": 1, // integer
-        "book_id": 1 // integer
+        "userId": 1, // integer
+        "bookId": 1 // integer
     }
     ```
 - **Request Body (XML):**
     ```xml
     <action>
-        <user_id>1</user_id> <!-- integer -->
-        <book_id>1</book_id> <!-- integer -->
+        <userId>1</userId> <!-- integer -->
+        <bookId>1</bookId> <!-- integer -->
     </action>
     ```
 - **Response (JSON):**
@@ -523,13 +523,17 @@
 - **Request Body (JSON):**
     ```json
     {
-        "borrowing_id": 1 // integer
+        "borrowing_id": 1, // integer
+        "userId": 1, // integer
+        "bookId": 1 // integer
     }
     ```
 - **Request Body (XML):**
     ```xml
     <action>
         <borrowing_id>1</borrowing_id> <!-- integer -->
+        <userId>1</userId> <!-- integer -->
+        <bookId>1</bookId> <!-- integer -->
     </action>
     ```
 - **Response (JSON):**
